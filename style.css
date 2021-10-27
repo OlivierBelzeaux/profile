@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&display=swap');
+body {
+    margin: 0px;
+    padding: 50px 30px;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #FFF3E4;
+    opacity: 0.8;
+    background-image: radial-gradient(#e5dacd 1.4500000000000002px, #FFF3E4 1.4500000000000002px);
+    background-size: 29px 29px;
+    color: #082032;
+}
+
+h1 {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 700;
+    font-size: 52px;
+    margin: 10px auto 6px;
+}
+
+h2 {
+    margin: 10px auto;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.card {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px 30px;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, .2);
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.card .frame {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.img-profil {
+    height: 100%;
+}
+
+.button {
+    display: inline-block;
+    background-color: #6B4F4F;
+    border: 2px solid #6B4F4F;
+    color: white;
+    padding: 12px 26px;
+    margin-top: 16px;
+    text-decoration: none;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    border-radius: 4px;
+    transition: all 0.5s 0s ease;
+    box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, .2);
+}
+
+.button:hover {
+    border: 2px solid #6B4F4F;
+    background-color: white;
+    color: #6B4F4F;
+}
+
+.icons-rs .fab {
+    color: #6B4F4F;
+    font-size: 45px;
+    transition: all 0.5s 0s ease;
+    margin: 30px 12px;
+}
+
+.icons-rs .fab:hover {
+    color: #483434;
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 42px;
+        margin: 10px auto 6px;
+    }
+    h2 {
+        font-size: 26px;
+    }
+    .card .frame {
+        width: 150px;
+        height: 150px;
+    }
+}
